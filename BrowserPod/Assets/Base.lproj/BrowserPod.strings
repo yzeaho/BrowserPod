@@ -1,0 +1,4 @@
+"file.error.nosupport" = "不支持打开此文件类型";
+"file.error.empty" = "空文件";
+"file.error.download" = "下载文件失败，请点击重试";
+"file.error.system" = "系统错误";

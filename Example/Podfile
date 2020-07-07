@@ -1,13 +1,8 @@
 use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '11.0'
 
 target 'BrowserPod_Example' do
   pod 'BrowserPod', :path => '../'
 
-  target 'BrowserPod_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

@@ -1,0 +1,6 @@
+framework module Pods_BrowserPod_Example {
+  umbrella header "Pods-BrowserPod_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

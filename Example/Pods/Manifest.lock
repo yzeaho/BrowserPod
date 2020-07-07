@@ -1,0 +1,47 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - BrowserPod (0.0.1):
+    - AFNetworking (~> 4.0)
+    - CocoaLumberjack
+    - ReactiveObjC
+  - CocoaLumberjack (3.6.1):
+    - CocoaLumberjack/Core (= 3.6.1)
+  - CocoaLumberjack/Core (3.6.1)
+  - ReactiveObjC (3.1.1)
+
+DEPENDENCIES:
+  - BrowserPod (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - CocoaLumberjack
+    - ReactiveObjC
+
+EXTERNAL SOURCES:
+  BrowserPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  BrowserPod: b05552bff4612a5743b6d43ab397cf791a1bdfee
+  CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+
+PODFILE CHECKSUM: 6f05bc50d8eb8bc311f4233c48a2e20f9c768450
+
+COCOAPODS: 1.9.3
